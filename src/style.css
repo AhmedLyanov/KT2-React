@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
+main{
+  border: 1px solid #1d1d1d;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  padding: 30px;
+}
+
+button{
+  border: 1px solid #1d1d1d;
+  background: transparent;
+  height: 35px;
+  padding-inline: 10px;
+  font-weight: 500;
+}
+
+
+body{
+  padding: 50px;
+}
+
+#Container-Board-Box{
+  height: 433px;
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 50px;
+}
+
+
+.PlusMinusSystem{
+  display: flex;
+  width: 100%;
+  gap: 9px;
+  justify-content: center;
+}
+
+.AddQunatity{
+  width: 40px;
+  border: 1px solid #1d1d1d;
+  height: 30px;
+}
+
+.DeleteQuantity{
+  width: 40px;
+  border: 1px solid #1d1d1d;
+  height: 30px;
+}
+
+
+ 
+/*Product Card */
+.Product-Card{
+  width: 255px;
+  height: 160px;
+  border: 1px solid #1d1d1d;
+  padding: 30px;
+  text-align: center;
+  font-family: sans-serif;
+}
+ 
+/*Product Card */
